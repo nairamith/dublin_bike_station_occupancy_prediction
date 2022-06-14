@@ -14,7 +14,7 @@ from sklearn.neighbors import KNeighborsRegressor
 
 data = pd.read_csv("../data/dublinbikes_data.csv", usecols=[1, 3, 6], parse_dates=[1])
 # UPPER SHERRARD STREET | HANOVER QUAY
-df = data[data.NAME == str('UPPER SHERRARD STREET')].drop(columns=["NAME"])
+df = data[data.NAME == str('HANOVER QUAY')].drop(columns=["NAME"])
 print(df.columns)
 # Get time difference between records
 date_col = pd.DatetimeIndex(df.TIME).view(int) / 10 ** 9
