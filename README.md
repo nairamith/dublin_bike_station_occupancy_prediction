@@ -111,7 +111,7 @@ Final Metrics:
 
 Plot of Prediction vs actual number of bikes in next 60 minutes for Hanover Quay using Ridge Regression:
 
-![plot](./plots/Final_Evaluation_Plots.png)
+![plot](./plots/Final_Evaluation_Plots_1.png)
 
 Plot of Prediction vs actual number of bikes in next 60 minutes for Hanover Quay using KNN Regression:
 
