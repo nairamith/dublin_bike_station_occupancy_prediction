@@ -27,7 +27,7 @@ Figure below shows the bike availability data for 2 weeks. From figure 2, days 4
 
 Figure below shows the process followed in this report for predicting the bike station occupancies. Once the data is filtered based on date, the entire data is split into data for weekends and weekdays. Separate features are selected for both weekend and weekdays and then a separate model is trained for both of them. We will use cross validation to For evaluation, predicted output on test data for both weekend and weekday data is combined and then used for evaluation.
 
-![plot](./plots/process_flow.png)
+![plot](./plots/process_flow_2.png)
 
 **Feature Engineering:**
 
